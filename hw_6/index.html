@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration form</title>
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <form class="form" method="post">
+      <label class="wrapper_label">
+        Your firstname:
+        <input type="text" name="fname" required />
+      </label>
+      <label>
+        Your lastname:
+        <input type="text" name="lname" required />
+      </label>
+      <label>
+        Your email:
+        <input type="email" name="email" required />
+      </label>
+
+      <label>
+        Your password:
+        <input type="password" name="password" required />
+      </label>
+      <label>
+        Confirm password:
+        <input type="password" name="password" required />
+      </label>
+
+      <legend>Your gender</legend>
+      <label>
+        <input type="radio" name="gender" value="male" required /> Male
+      </label>
+      <label>
+        <input type="radio" name="gender" value="female" /> Female
+      </label>
+      <label> <input type="radio" name="gender" value="other" /> Other </label>
+
+      <label>
+        Age:
+        <input type="number" name="age" />
+      </label>
+
+      <label>
+        Choose the course:
+        <select id="Course">
+          <option value="Front-End">Front-End</option>
+          <option value="Back-End">Back-End</option>
+          <option value="Project management">Project management</option>
+          <option value="QA Manual">QA Manual</option>
+        </select>
+      </label>
+
+      <label>
+        Place of residence:
+        <textarea
+          name="adress"
+          rows="5"
+          placeholder="Full adress: city, street, number of the house, flat"
+        ></textarea>
+      </label>
+
+      <label>
+        <a href="#">Our policy</a>
+        <!--Тут замість # в href мало би бути посилання на сайт із правилами і умовами користування.-->
+        <input type="checkbox" name="policy" required />
+      </label>
+
+      <div class="container_buttons">
+        <input type="submit" value="Registration" class="input_submit" />
+        <input type="reset" value=" Cancel" class="input_reset" />
+      </div>
+    </form>
+  </body>
+</html>
