@@ -1,0 +1,98 @@
+@import "../assets/fonts/Montserrat-Medium.ttf";
+
+body {
+  font-family: "Montserrat-Medium", sans-serif;
+}
+
+footer {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer img {
+  width: 200px;
+  height: 32px;
+}
+
+h2 {
+  color: #2f281e;
+  font-size: 20px;
+}
+
+footer nav ul li a {
+  color: #544837;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.footer_nav_ul {
+  width: 100%;
+  max-width: 76px;
+  height: 100%;
+  max-height: 149px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_menu {
+  width: 135px;
+  height: 210px;
+}
+
+.footer_menu-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+div nav ul {
+  width: 133px;
+  height: 149px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.subscribe {
+  width: 340px;
+  height: 207px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.subscribe h2 {
+  align-self: flex-start;
+}
+
+.subscribe-form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  color: #bcd0e5;
+  border: 1px solid #bcd0e5;
+  border-radius: 5px;
+  width: 340px;
+  height: 50px;
+}
+
+input::placeholder {
+  color: #bcd0e5;
+}
+
+button {
+  width: 180px;
+  height: 50px;
+  background-color: #ff9900;
+  border-radius: 5px;
+  border: none;
+  color: #ffffff;
+  align-self: flex-start;
+}
