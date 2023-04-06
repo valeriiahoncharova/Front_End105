@@ -1,0 +1,113 @@
+@import "../assets/fonts/Montserrat-VariableFont_wght.ttf";
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.header {
+  width: 100%;
+  max-width: 1440px;
+  height: 80px;
+  margin: 0 auto;
+}
+
+.header__image-logo {
+  width: 200px;
+  height: 32px;
+  margin-left: 120px;
+  margin-top: 24px;
+  float: left;
+}
+
+nav {
+  width: 352px;
+  float: left;
+  margin-left: 192px;
+  margin-right: 192px;
+  margin-top: 26px;
+}
+.header__li {
+  display: inline-block;
+}
+
+header nav ul li a {
+  color: #2f281e;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+header nav ul li .item_first {
+  color: #ff9900;
+}
+
+header nav ul li a .item_last {
+  margin-right: 0px;
+}
+
+.btn {
+  width: 252px;
+  float: left;
+}
+
+.btn button {
+  width: 110px;
+  height: 46px;
+  margin-top: 17px;
+}
+
+.first_button {
+  float: left;
+  color: #2f281e;
+  border: 1px solid rgba(186, 201, 220, 1);
+  border-radius: 2px;
+}
+
+.second_button {
+  background-color: #ff9900;
+  color: #ffffff;
+  border: none;
+  float: right;
+  border-radius: 2px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section__wrapper {
+  float: left;
+  margin-right: 56px;
+}
+
+h2 {
+  font-size: 44px;
+  margin-top: 167px;
+  margin-bottom: 30px;
+}
+main div section p {
+  font-size: 18px;
+}
+main img {
+  width: 644px;
+  height: 495px;
+  margin-top: 70px;
+  float: right;
+}
+
+main button {
+  width: 180px;
+  height: 50px;
+  background-color: #ff9900;
+  color: #ffffff;
+  border: none;
+  border-radius: 2px;
+  margin-top: 20px;
+}
+
+main .container button a {
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: none;
+}
