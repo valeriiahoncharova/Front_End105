@@ -1,0 +1,101 @@
+main,
+header {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  height: 54px;
+  margin-top: 13px;
+  display: grid;
+  grid-template-columns: 100px 1fr 240px;
+}
+
+.language {
+  font-family: "Tourney", cursive;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 2.1;
+}
+
+.header_menu_ul {
+  height: 54px;
+  display: flex;
+  gap: 10px;
+}
+
+.nav_items_li {
+  display: flex;
+  align-items: center;
+}
+
+.nav_items {
+  font-family: "Staatliches", cursive;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.2;
+  color: #000000;
+  text-decoration: none;
+}
+
+main {
+  margin-top: 83px;
+}
+
+h2 {
+  font-family: "Francois One", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.33;
+  display: inline-flex;
+  height: 50px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.chapter {
+  font-family: "Farro", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+p {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 1.7;
+  margin-top: 40px;
+}
+
+section {
+  margin-top: 70px;
+}
+
+.text_decoration_underline {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  text-decoration: underline;
+}
+
+.italic_font {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  font-style: italic;
+}
+
+.bold_part {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.text_background {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  background-color: #dadada;
+}
