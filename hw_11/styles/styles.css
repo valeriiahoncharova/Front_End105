@@ -1,0 +1,152 @@
+main,
+header {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  height: 80px;
+  margin-top: 13px;
+  display: grid;
+  grid-template-columns: 100px 1fr 240px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+main {
+  padding-top: 80px;
+  display: grid;
+  grid-template-columns: 385px 1fr;
+  gap: 30px;
+}
+
+.container {
+  background-image: url(../images/bg-picture.svg);
+  background-position: right 0 top 90px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.sitebar {
+  margin-top: 50px;
+}
+
+.sticky_navigation {
+  position: sticky;
+  top: 80px;
+}
+
+.sitebar_ul {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.headline {
+  font-family: "Francois One", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.33;
+  display: inline-flex;
+  height: 50px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.headline_side_menu {
+  display: block;
+  width: 345px;
+  text-decoration: none;
+  color: #000000;
+  border-bottom: 1px solid #c9c9c9;
+}
+
+.language {
+  font-family: "Tourney", cursive;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 2.1;
+}
+
+.header_menu_ul {
+  height: 80px;
+  display: flex;
+  gap: 10px;
+}
+
+.nav_items_li {
+  display: flex;
+  align-items: center;
+}
+
+.nav_items {
+  font-family: "Staatliches", cursive;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.2;
+  color: #000000;
+  text-decoration: none;
+}
+
+.chapter {
+  font-family: "Farro", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+p {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 1.7;
+  margin-top: 40px;
+}
+
+section {
+  margin-top: 70px;
+}
+
+.text_decoration_underline {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  text-decoration: underline;
+}
+
+.italic_font {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  font-style: italic;
+}
+
+.bold_part {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.text_background {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  background-color: #dadada;
+}
+
+.top_block {
+  position: relative;
+}
+
+.top_block:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -20px;
+  left: 0;
+  width: 100px;
+  border: 8px solid #000;
+}
