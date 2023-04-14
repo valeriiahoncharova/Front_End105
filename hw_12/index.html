@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>CSS styling of forms</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Create an Account</h1>
+      <form action="#" method="GET">
+        <div class="form">
+          <div class="first_name name_flex">
+            <label for="first-name">First Name</label>
+            <input
+              class="name_textarea"
+              id="first-name"
+              type="text"
+              name="first_name"
+              required
+            />
+          </div>
+
+          <div class="last_name name_flex">
+            <label for="last-name">Last Name</label>
+            <input
+              class="name_textarea"
+              id="last-name"
+              type="text"
+              name="last_name"
+              required
+            />
+          </div>
+
+          <div class="e_mail name_flex">
+            <label for="e-mail">E-mail</label>
+            <input
+              class="e_mail_submit_textarea"
+              id="e-mail"
+              type="email"
+              name="e_mail"
+              required
+            />
+            <p class="information">
+              We'll never share your email with anyone else.
+            </p>
+          </div>
+
+          <div class="gender gender_flex">
+            <label class="label_gender"
+              >Male
+              <input type="radio" name="gender" value="male" checked />
+              <span></span>
+            </label>
+
+            <label class="label_gender"
+              >Female
+              <input type="radio" name="gender" value="female" />
+              <span></span>
+            </label>
+          </div>
+
+          <div class="country name_flex">
+            <label for="country">Country</label>
+            <select class="name_textarea" name="country" id="country" required>
+              <option disabled selected>Select</option>
+              <option value="Ukraine">Ukraine</option>
+              <option value="Poland">Poland</option>
+              <option value="Georgia">Georgia</option>
+            </select>
+          </div>
+
+          <div class="city name_flex">
+            <label for="city">City</label>
+            <input
+              class="name_textarea"
+              id="city"
+              type="text"
+              name="city"
+              required
+            />
+          </div>
+
+          <div class="sign_in">
+            <button
+              class="e_mail_submit_textarea submit"
+              name="submit"
+              type="submit"
+              value="submit"
+            >
+              Sign Up
+            </button>
+          </div>
+        </div>
+      </form>
+      <div>
+        <div class="policy">
+          <p class="information">
+            By clicking the 'Sign Up' button, you confirm that you accept our
+          </p>
+          <p class="information">
+            <a href="#" class="sites">Terms of Use</a> and
+            <a href="#" class="sites">Privacy Policy</a> .
+          </p>
+        </div>
+
+        <div class="account">
+          <p class="information">Have an account?</p>
+          <a href="#" class="sites">Log In</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
