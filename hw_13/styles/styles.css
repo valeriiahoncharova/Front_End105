@@ -54,6 +54,16 @@ h1 {
   border-radius: 8px;
 }
 
+.item_container:hover {
+  border: 1px solid #3db370;
+  border-radius: 8px;
+}
+
+.item_container:hover svg {
+  fill: #e1f4f5;
+  stroke: #52c29d;
+}
+
 h3 {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -92,12 +102,26 @@ a {
 }
 
 .svg_items {
-  display: inline-block;
-  width: 40px;
-  height: 36px;
+  display: flex;
+  width: 50px;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
   margin-bottom: 30px;
   border: 1px solid rgba(21, 101, 216, 0.1);
   border-radius: 5px;
+}
+
+.social_logo {
+  display: flex;
+  gap: 10px;
+  margin-left: 135px;
+  margin-top: 40px;
+}
+
+.social_logo__svg {
+  width: 48px;
+  height: 48px;
 }
 
 footer {
@@ -106,10 +130,11 @@ footer {
   background-color: #16133d;
 }
 
-footer h2 {
-  color: #fff;
+.footer__svg {
+  padding-left: 136px;
 }
 
-svg {
-  display: none;
+footer h2 {
+  color: #fff;
+  margin-bottom: 40px;
 }
