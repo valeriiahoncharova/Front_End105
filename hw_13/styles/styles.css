@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+}
+
+.underbox_line {
+  padding: 25px 0;
+  border-bottom: 1px solid #efeef3;
+  padding-left: 136px;
+}
+
+h2 {
+  font-family: "Quicksand", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 1;
+  color: #16133d;
+  display: inline;
+}
+
+.main_services {
+  margin: 100px 135px;
+}
+
+.above_the_title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #7690a8;
+  margin-bottom: 15px;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 52px;
+  letter-spacing: 0.2px;
+  color: #16133d;
+  margin-bottom: 40px;
+}
+
+.main_items {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.item_container {
+  padding: 40px;
+  border: 1px solid #e5eaf4;
+  border-radius: 8px;
+}
+
+.item_container:hover {
+  border: 1px solid #3db370;
+  border-radius: 8px;
+}
+
+.item_container:hover svg {
+  fill: #e1f4f5;
+  stroke: #52c29d;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 21px;
+  letter-spacing: 0.2px;
+  color: #16133d;
+  margin-bottom: 15px;
+}
+
+.lorem {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #16133d;
+  margin-bottom: 30px;
+}
+
+a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #3db370;
+  text-decoration: none;
+}
+
+.svg_logo {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+}
+
+.svg_items {
+  display: flex;
+  width: 50px;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  margin-bottom: 30px;
+  border: 1px solid rgba(21, 101, 216, 0.1);
+  border-radius: 5px;
+}
+
+.social_logo {
+  display: flex;
+  gap: 10px;
+  margin-left: 135px;
+  margin-top: 40px;
+}
+
+.social_logo__svg {
+  width: 48px;
+  height: 48px;
+}
+
+footer {
+  width: 100%;
+  padding: 40px;
+  background-color: #16133d;
+}
+
+.footer__svg {
+  padding-left: 136px;
+}
+
+footer h2 {
+  color: #fff;
+  margin-bottom: 40px;
+}
